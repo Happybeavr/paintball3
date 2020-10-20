@@ -1,0 +1,71 @@
+ul li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+#navDiv {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: table;
+  background-color: #202020;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  float: right;
+	margin-right: 50px;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+ul #logo{
+	font-size: 29px;
+	position:fixed;
+	left:0;
+	top:0;
+	margin-left: 25px;
+	margin-top: 11px;
+	color:antiquewhite;
+	font-weight: bold;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+#table {
+	table-layout: fixed;
+	width: 1000px;
+	border: solid;
+	margin-top: 290px;
+	margin-left: 0px;
+	border-color: #202020;
+	border-collapse: collapse;
+	position: absolute;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+#table td {
+	border: solid;
+	border-color: #202020;
+	height: 100px;
+}
+
+.TeamName {
+	font-weight: bold;
+	font-size: 20px;
+}
